@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Vitor Boccio</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
   <style>
     body,
     html {
@@ -12,7 +13,22 @@
       padding: 0px;
       position: fixed;
       background: rgb(30,30,30);
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
     }
+    .info {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 1em;
+      padding-right: 1em;
+    }
+    p {
+      color:white;
+      font-size: 32px;
+      margin-bottom: 5px;
+    }
+    a { float:left; }
   </style>
   <script>
     window.requestAnimFrame = (function() {
@@ -41,6 +57,10 @@
     <script src="tentacles.js"></script>
 </head>
 <body>
+  <div class="info">
+    <p>Hello, I'm Vitor, <br />and this is how I feel walking through new javascript libraries.</p>
+    <a href="https://linkedin.com/in/vitorboccio" target="_blank"><img width="30" src="linkedin.png" /></a>
+  </div>
   <canvas id="canvas"></canvas>
 </body>
 </html>
