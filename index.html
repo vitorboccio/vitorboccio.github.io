@@ -30,6 +30,12 @@
       margin-bottom: 5px;
     }
     a { float:left; }
+    small {
+      position: absolute;
+      bottom: 5px;
+      right: 5px;
+      color: white;
+    }
   </style>
   <script>
     window.requestAnimFrame = (function() {
@@ -59,9 +65,12 @@
 </head>
 <body>
   <div class="info">
-    <p>Hello, I'm Vitor, <br />and this is how I feel walking through new javascript libraries.</p>
+    <p>Hello, I'm Vitor, <br /><span style="font-size: 20px;">and this is how I feel walking through the death valley of new javascript libraries.</span></p>
     <a href="https://linkedin.com/in/vitorboccio" target="_blank"><img width="30" src="linkedin.png" /></a>
   </div>
+  <small>
+    This was built with vanilla js btw.
+  </small>
   <canvas id="canvas"></canvas>
 </body>
 </html>
